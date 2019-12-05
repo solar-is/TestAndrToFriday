@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_task_one">
+
+    <fragment
+        android:id="@+id/nav_task_one"
+        android:name="com.example.testandrtofriday.ui.task_one.TaskOneFragment"
+        android:label="@string/menu_task_one"
+        tools:layout="@layout/fragment_task_one" />
+
+    <fragment
+        android:id="@+id/nav_task_two"
+        android:name="com.example.testandrtofriday.ui.task_two.TaskTwoFragment"
+        android:label="@string/menu_task_two"
+        tools:layout="@layout/fragment_task_two" />
+
+    <fragment
+        android:id="@+id/nav_task_three"
+        android:name="com.example.testandrtofriday.ui.task_three.TaskThreeFragment"
+        android:label="@string/menu_task_three"
+        tools:layout="@layout/fragment_task_three" />
+
+    <fragment
+        android:id="@+id/nav_task_four"
+        android:name="com.example.testandrtofriday.ui.task_four.TaskFourFragment"
+        android:label="@string/menu_task_four"
+        tools:layout="@layout/fragment_task_four" />
+
+</navigation>
