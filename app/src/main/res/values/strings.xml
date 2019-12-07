@@ -1,15 +1,19 @@
 <resources>
-    <string name="app_name">TestAndroidToFriday</string>
+    <string name="app_name">Умный дом</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Система управления умным домом</string>
-    <string name="nav_header_subtitle">Ваш сайт</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_task_one">Task one</string>
-    <string name="menu_task_two">Task two</string>
-    <string name="menu_task_three">Task three</string>
-    <string name="menu_task_four">Task four</string>
+    <string name="menu_room">Комната</string>
+    <string name="menu_bedroom">Спальня</string>
+    <string name="menu_kitchen">Кухня</string>
+
+    <string name="light">Свет</string>
+    <string name="rosette">Розетка</string>
+    <string name="vacuum">Пылесос</string>
+    <string name="teapot">Чайник</string>
+    <string name="curtains">Шторы</string>
 
 </resources>
